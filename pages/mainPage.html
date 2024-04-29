@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/navbar.css">
     <link rel="stylesheet" href="../styles/socialLink.css">
-    <link rel="stylesheet" href="../styles/skillPage.css">
+    <link rel="stylesheet" href="../styles/skillPage/skillPage.css">
     <link rel="stylesheet" href="../styles/homeStyle.css">
     <link rel="stylesheet" href="../styles/typeEffect.css">
-    <link rel="stylesheet" href="../styles/cardSkills.css">
+    <link rel="stylesheet" href="../styles/skillPage/cardSkills.css">
+    <link rel="stylesheet" href="../styles/skillPage/languages.css">
     
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
+    <a href="#"><img src="../imgs/zaplogo.svg" class="zapLink"></a>
     <div class="navbar">
       <p railtonNav>Railton</p>
       <ul class="navigation">
-          <li class="active">
+          <li>
             <a href="#" homeLinks>
               <span class="icon">
                 <ion-icon name="home-outline"></ion-icon>
@@ -27,8 +29,8 @@
               <span class="text">Home</span>
             </a>
           </li>
-          <li>
-            <a href="#"class = "skillLink">
+          <li class="active" >
+            <a href="#"class = "skillLink" >
               <span class="icon">
                 <ion-icon name="code-working-outline"></ion-icon>
               </span>
@@ -83,22 +85,52 @@
           </div>
           <div class="cardsHolder">
             <div class="card">
+               <img src="../imgs/skills/backend.svg" class="CardLogo">
                <h2>BACKEND</h2>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam at architecto facere. Blanditiis velit archit</p>
+               <ul class="listCard">
+                <li>Spring Boot</li>
+                <li>Spring Security</li>
+                <li>Node JS</li>
+                <li>TypeScript</li>
+              </ul>
             </div>
             <div class="card">
-              <h2>DADOS</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam at architecto facere. Blanditiis velit archit</p>
+              <img src="../imgs/skills/tools.svg" class="CardLogo">
+              <h2>FERRAMENTAS</h2>
+              <ul class="listCard">
+                <li>PostMan</li>
+                <li>VS Code</li>
+                <li>WorkBench</li>
+                <li>IntelliJ IDEA</li>
+              </ul>
             </div>
             <div class="card">
+              <img src="../imgs/skills/database.svg" class="CardLogo">
               <h2>BANCO DE DADOS</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam at architecto facere. Blanditiis velit archit</p>
+              <ul class="listCard">
+                <li>MySQL</li>
+                <li>PostGresSQL</li>
+                <li>MongoDB</li>
+              </ul>
             </div>
-            <div class="card">
-              <h2>DESING</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam at architecto facere. Blanditiis velit archit</p>
             </div>
           </div>
+          <section class="languagesHolder">
+            <span class="typing-demo language" languageTittle>>_ Languagens
+            </span>
+            <div class="logosLanguageHolder">
+                <img src="../imgs/skills/logos/html.svg" class ="logoLan">
+                <img src="../imgs/skills/logos/js.svg" class ="logoLan">
+                <img src="../imgs/skills/logos/ts.svg" class ="logoLan">
+                <img src="../imgs/skills/logos/spring.svg" class ="logoLan springLogo">
+                <img src="../imgs/skills/logos/java.svg" class ="logoLan javaLogo">
+                <img src="../imgs/skills/logos/python.svg" class ="logoLan ">
+            </div>
+          </section>
+        </section>
+        <section class="projectHolder">
+            <h1>Projetos</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloribus sint, sit fuga ducimus corrupti quisquam praesentium maiores voluptate quaerat unde, necessitatibus, aliquam earum explicabo quibusdam est quod totam reprehenderit!
         </section>
     </main>
     

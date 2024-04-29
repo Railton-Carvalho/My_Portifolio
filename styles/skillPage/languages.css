@@ -1,0 +1,42 @@
+.languagesHolder{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 16%;
+    height: 50%; width: 100%;
+    background-color: var(--dark-blue);
+    border-radius: 20px;
+}
+h1[languageTittle]{
+    font-size: 50px;
+    margin: 15px 0px;
+}
+
+.language{/* typing language */
+    width: 10.9ch;
+}
+span[languageTittle]{
+    text-align: center;
+    font-size: 45px;
+    color: var(--light-green);
+    margin: 20px 0px;
+}
+.logoLan{
+    height: 90px;
+}
+.springLogo{
+    height: 105px;
+}
+.javaLogo{
+    border-radius: 7px;
+}
+.logosLanguageHolder{
+    display: flex;
+    border: solid 2px  var(--light-green);
+    padding: 15px;
+    border-radius: 20px;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}

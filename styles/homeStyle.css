@@ -11,8 +11,8 @@
 	}
 }
 .contentHolder{
-    display: flex;
-    background:linear-gradient(to right,  #118ba9, #0ab4de,rgb(8, 197, 87));
+    display: none;
+    background:linear-gradient(to right,  #118ba9, #0a96b9,var(--midle-blue));
  /* gradiente de preto a cinza médio a branco */
     background-size: 400% 400%;
     animation: gradient 14s ease infinite;
@@ -26,7 +26,7 @@
 
 }
 h1[railton]{
-    font-size: 30px;
+    font-size: 45px;
     margin-bottom: 25px;
 
 }

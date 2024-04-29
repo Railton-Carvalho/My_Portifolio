@@ -1,6 +1,8 @@
 * { /* stilo mae */
     --dark-gray: #191919;
     --light-green: #00FF0B;
+    --dark-blue: #191c29;
+    --midle-blue: rgb(16, 47, 62);
     color: white;
     font-family: 'Inter';
     font-weight: 500;
@@ -19,19 +21,25 @@ footer{
     position: fixed; /* ou position: absolute; */
     bottom: 0;
     width: 100%;
-    background: linear-gradient(#3e3e3e 0%, #000000 40%);
+    background: linear-gradient(rgb(6, 22, 31) 0%, var(--midle-blue) 40%);
     color: #fff;
     text-align: center;
     padding: 8px 0;
-    border-top: solid 1px black;
 }
+.zapLink{
+    bottom: 5%;
+    right: 3%;
+    position: fixed;
+    height: 70px;
+}
+
 /* Animacao da troca de tela */
 .fade-in {
     opacity: 1;
-    transition: opacity 0.8s ease-in-out;
+    transition: all 0.8s ease;
 }
 
 .fade-out {
     opacity: 0;
-    transition: opacity 0.8s ease-in-out; /
+    transition: all 0.8s ease; /
 }
