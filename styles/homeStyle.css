@@ -1,0 +1,56 @@
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	60% {
+		background-position: 0% 50%;
+	}
+}
+.contentHolder{
+    display: flex;
+    background:linear-gradient(to right,  #118ba9, #0ab4de,rgb(8, 197, 87));
+ /* gradiente de preto a cinza médio a branco */
+    background-size: 400% 400%;
+    animation: gradient 14s ease infinite;
+    height: 88.6vh;
+}
+.basicInfo{
+    display: flex;
+    padding: 50px 100px;
+    width: 50%;
+    flex-direction: column;
+
+}
+h1[railton]{
+    font-size: 30px;
+    margin-bottom: 25px;
+
+}
+h1[backend]{
+    color: var(--dark-gray);
+    font-size: 72px;
+    line-height: 30px;
+    text-shadow: 
+        -1px -1px 0 var(--dark-gray),  
+        1px -1px 0 var(--dark-gray),
+        -1px 1px 0 var(--dark-gray),
+        1px 1px 0 var(--dark-gray);
+}
+h1[developer]{
+    font-size: 72px;
+    letter-spacing: -4px; /* Reduz o espaçamento entre letras */  
+}
+.linksHolder{
+    display: flex;
+    gap: 18px;
+    margin-top: 10%;
+}
+.raiImg{
+   height: 380px;
+   margin-top: 13%;
+   margin-left:200px;
+}

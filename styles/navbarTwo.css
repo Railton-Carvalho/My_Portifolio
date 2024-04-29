@@ -1,0 +1,65 @@
+
+
+.navigation{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation ul{
+    position: relative;
+    display: flex;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    height: 70px; width: 70px;
+    z-index: 1;
+    background-color: rgb(0, 36, 24);
+}
+.navigation ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    font-weight: 500;
+}
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    font-size: 1.5em;
+    line-height: 75px;
+    transition: 0.5s;
+    color: rgba(0, 255, 0, 0.778);
+}
+.navigation ul li:hover a .icon{
+    color: rgba(0, 255, 0, 0.778)
+}
+.navigation ul li.active a .icon{
+    transform: translateY(-8px);
+    color: #29fd53;
+}
+
+.navigation ul li a .text {
+    position: absolute;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(15px);
+    background: #2196f3;
+    padding: 2px 7px;
+    border-radius: 12px;
+}
+.navigation ul li.active a .text {
+    transform: translateY(-4px);
+    opacity: 1;
+}
