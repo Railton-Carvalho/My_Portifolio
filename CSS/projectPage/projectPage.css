@@ -1,6 +1,6 @@
 
 .projectHolder{
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: rgb(8, 43, 0);
     height: 100vh;

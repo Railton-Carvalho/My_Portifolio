@@ -11,7 +11,7 @@
 	}
 }
 .contentHolder{
-    display: none;
+    display: flex;
     background:linear-gradient(to right,   #079bc0, var(--midle-blue));
  /* gradiente de preto a cinza médio a branco */
     background-size: 400% 400%;

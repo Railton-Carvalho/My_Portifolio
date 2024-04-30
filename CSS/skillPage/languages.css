@@ -14,7 +14,7 @@ h1[languageTittle]{
 }
 
 .language{/* typing language */
-    width: 10.9ch;
+    width: 10.4ch;
 }
 span[languageTittle]{
     text-align: center;
@@ -34,7 +34,7 @@ span[languageTittle]{
 .logosLanguageHolder{
     display: flex;
     border: solid 2px  var(--light-green);
-    padding: 15px;
+    padding: 10px 15px;
     border-radius: 20px;
     gap: 35px;
     justify-content: center;
