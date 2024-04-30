@@ -1,5 +1,5 @@
 .skillsHolder{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     background: linear-gradient(#1a1a1a 0%, #282828 70%);

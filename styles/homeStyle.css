@@ -12,7 +12,7 @@
 }
 .contentHolder{
     display: none;
-    background:linear-gradient(to right,  #118ba9, #0a96b9,var(--midle-blue));
+    background:linear-gradient(to right,   #079bc0, var(--midle-blue));
  /* gradiente de preto a cinza médio a branco */
     background-size: 400% 400%;
     animation: gradient 14s ease infinite;

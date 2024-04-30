@@ -12,12 +12,19 @@
     <link rel="stylesheet" href="../styles/typeEffect.css">
     <link rel="stylesheet" href="../styles/skillPage/cardSkills.css">
     <link rel="stylesheet" href="../styles/skillPage/languages.css">
+    <link rel="stylesheet" href="../styles/projectPage/projectPage.css">
+    <link rel="stylesheet" href="../styles/projectPage/cardProject.css">
+    <link rel="stylesheet" href="../styles/projectPage/projectCard.css">
     
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+
 </head>
 <body>
-    <a href="#"><img src="../imgs/zaplogo.svg" class="zapLink"></a>
+    <a href="https://wa.me/98985919302" target="_blank"><img src="../imgs/zaplogo.svg" class="zapLink"></a>
     <div class="navbar">
       <p railtonNav>Railton</p>
       <ul class="navigation">
@@ -30,7 +37,7 @@
             </a>
           </li>
           <li class="active" >
-            <a href="#"class = "skillLink" >
+            <a href="#"class = "skillLink" skillLinks>
               <span class="icon">
                 <ion-icon name="code-working-outline"></ion-icon>
               </span>
@@ -38,7 +45,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" projectLinks>
               <span class="icon">
                 <ion-icon name="desktop-outline"></ion-icon>
                 
@@ -129,12 +136,45 @@
           </section>
         </section>
         <section class="projectHolder">
-            <h1>Projetos</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloribus sint, sit fuga ducimus corrupti quisquam praesentium maiores voluptate quaerat unde, necessitatibus, aliquam earum explicabo quibusdam est quod totam reprehenderit!
+            <h1 projectTitle>Projetos</h1>
+            <div class="containersHolder">
+              <div class="projectCard">
+                <span class="projectImg">
+                   <img src="imgs/gifs/mapa.gif" mapaGif alt="">
+                </span>
+                <h1 projectName>GeoFlyAPI</h1>
+                <p projectDesc> >_ API Rest que visa auxiliar geógrafos e profissionais relacionados a cadastrar informações sobre países, regiões e estados.</p>
+                <a href="https://github.com/Railton-Carvalho/GeoFly_API" class="repoBtn" target="_blank"><img src="imgs/repoLogo.svg"  gitRepo><p>Repositorio</p></a>
+              </div>
+              <span class="projectCard">
+                <div class="projectImg">
+                   <img src="/imgs/gifs/apiGif.gif" apiGif alt="">
+                </div>
+                <h1 projectName>CommerceAPI</h1>
+                <p projectDesc> >_ Uma API para comércio eletrônico que gerencia pedidos, usuários, produtos e pagamentos a criação, atualização e visualização.</p>
+                <a href="https://github.com/Railton-Carvalho/proj-ecommerceAPI-jpa" class="repoBtn" target="_blank"><img src="imgs/repoLogo.svg" gitRepo><p>Repositorio</p></a>
+              </span>
+              <span class="projectCard">
+                <div class="projectImg">
+                   <img src="imgs/gifs/game.gif" gameGif alt="">
+                </div>
+                <h1 projectName>ShotGame</h1>
+                <p projectDesc> >_ Jogo de tiro 2d feito usando a biblioteca PyGame do python usando os conhecimentos básicos de POO</p>
+                <a href="https://github.com/Railton-Carvalho/proj-ecommerceAPI-jpa" class="repoBtn" target="_blank"><img src="imgs/repoLogo.svg" gitRepo><p>Repositorio</p></a>
+              </span>
+              
+            </div>
+
+            </div>
+          
         </section>
     </main>
     
 </body>
     <script src="../scripts/navbar.js"></script>
     <script src="../scripts/skillsScripts/elements.js"></script>
+    <script src="../scripts/projectScript/hover.js"></script>
+    <script src="../scripts/projectCard.js"></script>
+    
+
 </html>

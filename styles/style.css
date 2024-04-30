@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
 * { /* stilo mae */
     --dark-gray: #191919;
     --light-green: #00FF0B;
@@ -30,7 +31,7 @@ footer{
     bottom: 5%;
     right: 3%;
     position: fixed;
-    height: 70px;
+    height: 55px;
 }
 
 /* Animacao da troca de tela */
