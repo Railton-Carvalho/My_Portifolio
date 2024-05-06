@@ -3,10 +3,9 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-top: 16%;
-    height: 50%; width: 100%;
+    margin-top: 14%;
+    width: 100%;
     background-color: var(--dark-blue);
-    border-radius: 20px;
 }
 h1[languageTittle]{
     font-size: 50px;
@@ -19,11 +18,12 @@ h1[languageTittle]{
 span[languageTittle]{
     text-align: center;
     font-size: 45px;
-    color: var(--light-green);
-    margin: 20px 0px;
+    color: white;
+    margin: 10px 0px;
 }
 .logoLan{
-    height: 90px;
+    height: 65px;
+    cursor: pointer;
 }
 .springLogo{
     height: 105px;
@@ -33,10 +33,17 @@ span[languageTittle]{
 }
 .logosLanguageHolder{
     display: flex;
-    border: solid 2px  var(--light-green);
-    padding: 10px 15px;
+    border: solid 3px  var(--light-green);
+    padding: 5px 15px;
     border-radius: 20px;
     gap: 35px;
     justify-content: center;
     align-items: center;
+}
+.logoLan{
+    transition: transform 0.21s ease; /* Adiciona uma transição suave */
+}
+
+.logoLan:hover{
+    transform: scale(1.11); /* Aumenta em 5% quando passar o mouse */
 }

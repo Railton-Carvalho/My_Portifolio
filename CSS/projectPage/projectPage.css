@@ -2,20 +2,20 @@
 .projectHolder{
     display: none;
     flex-direction: column;
-    background-color: rgb(8, 43, 0);
     height: 100vh;
     align-items: center;
     background: linear-gradient(rgb(16, 47, 62) 0%, rgb(21, 62, 82) 70%);
-    height: 100vh;
+    height: 100%;
 }
 h1[projectTitle]{
     font-size: 55px;
-    margin: 25px 0px;
+    margin-top: 1%;
 }
 
 .containersHolder{
     display: flex;
     width: 100%;
+    margin: 1.5% 0;
     justify-content: center;
     gap: 3em;
 }

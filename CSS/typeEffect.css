@@ -1,12 +1,13 @@
 
 
 .typing-demo {
-  width: 13.9ch;
+  width: 20.9ch;
   animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
+  text-align: center;
   border-right: 2px solid;
-  font-size: 1.6em;
+  font-size: 2.1em;
   margin-bottom: 20px;
 }
 

@@ -5,14 +5,14 @@
   justify-content: center;
   align-items: center;
   padding:  2px 0px;
-  background:  rgb(14, 43, 57);
-  border-bottom: solid 0.5px  rgb(16, 47, 62);
+  background:  #084d6e;
+  /* border-bottom: solid 0.5px  rgb(16, 47, 62); */
 }
 .navigation {
   position: relative;
   width: 30%;
   height: 9.2vh;
-  background: rgb(14, 43, 57);
+  background: #084d6e;
   display: flex;
   justify-content: center;
   align-items: center;

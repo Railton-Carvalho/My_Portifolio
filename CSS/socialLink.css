@@ -19,16 +19,17 @@
     text-decoration: none;
 }
 .btn-4 span ion-icon{
-    font-size: 1.5em;
+    color: black;
+    font-size: 1.6em;
 }
 .btn-4 {
-    background-image: linear-gradient(315deg, #191919 0%, #000000 70%);
+    background-image: linear-gradient(315deg, #ffffff 0%, #ffffff 70%);
     line-height: 42px;
     padding: 0;
     border: none;
   }
   .btn-4:hover{
-    background-image: linear-gradient(315deg, var(--light-green) 0%, #03c85f 74%);
+    background-image: linear-gradient(315deg, var(--light-green) 0%, #00ff77 74%);
 
   }
   .btn-4 span {
@@ -36,6 +37,7 @@
     display: flex;
     padding: 5px;
     gap: 5px;
+    color: black;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -46,10 +48,10 @@
     content: "";
     right: 0;
     top: 0;
-    box-shadow:  4px 4px 6px 0 rgba(0, 250, 29, 0.579),
-                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-      inset -4px -4px 6px 0 rgba(0, 250, 29, 0.579),
-      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    box-shadow:  4px 4px 6px 0 rgba(0, 250, 29, 0.901),
+                -4px -4px 6px 0 rgba(183, 195, 209, 0.2), 
+      inset -4px -4px 6px 0 rgba(0, 250, 4, 0.737),
+      inset 4px 4px 6px 0 rgba(164, 177, 193, 0.3);
     transition: all 0.3s ease;
   }
   .btn-4:before {
@@ -88,7 +90,9 @@
   }
   .btn-4 span:hover:before {
     height: 100%;
+    color: #fff;
   }
   .btn-4 span:hover:after {
     width: 100%;
+    color: #fff;
   }

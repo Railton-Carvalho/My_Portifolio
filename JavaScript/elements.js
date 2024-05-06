@@ -14,8 +14,6 @@ skillLink.addEventListener("click", event => {
     setTimeout(() => {
         contentHolder.style.display = "none";
         projectHolder.style.display =  "none";
-        contentHolder.classList.remove('fade-out'); // Remove a classe após a transição
-        skillsHolder.classList.add('fade-in'); // Adiciona a classe para desvanecer a entrada
         skillsHolder.style.display = "flex";
     }, 500); // Define um intervalo de 500ms para a transição
 });
@@ -25,8 +23,6 @@ homeLink.addEventListener("click", event => {
     setTimeout(() => {
         skillsHolder.style.display = "none";
         projectHolder.style.display =  "none";
-        skillsHolder.classList.remove('fade-out'); // Remove a classe após a transição
-        contentHolder.classList.add('fade-in'); // Adiciona a classe para desvanecer a entrada
         contentHolder.style.display = "flex";
     }, 500); // Define um intervalo de 500ms para a transição
 });
