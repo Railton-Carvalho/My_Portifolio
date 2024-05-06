@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(14, 43, 57, 0.875);
+    background-color: rgba(0, 87, 131, 0.994);
 }
 footer h2{
     font-size: 15px;
@@ -29,7 +29,7 @@ footer{
     padding: 8px 0;
 }
 .zapLink{
-    bottom: 5%;
+    bottom: 8%;
     right: 3%;
     position: fixed;
     height: 55px;
@@ -38,10 +38,10 @@ footer{
 /* Animacao da troca de tela */
 .fade-in {
     opacity: 1;
-    transition: all 0.8s ease;
+    transition: all 0.2s ease;
 }
 
 .fade-out {
     opacity: 0;
-    transition: all 0.8s ease; /
+    transition: all 0.2s ease; /
 }

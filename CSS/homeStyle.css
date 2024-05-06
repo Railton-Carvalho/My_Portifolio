@@ -33,7 +33,6 @@
 }
 p[intro]{
     padding: 0px;
-  
     font-weight: 100;
     text-align: center;
 }
@@ -58,7 +57,7 @@ h1[developer]{
     justify-content: center;
     width: 100%;
     gap: 18px;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .raiImg{
    height: 380px;

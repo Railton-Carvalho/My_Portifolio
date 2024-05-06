@@ -9,7 +9,7 @@
     background: rgb(25, 28, 41);
     height: 230px;
     width: 245px;
-    padding: 18px;
+    padding: 12px;
     position: relative;
     border-radius: 7px;
     display: flex;
@@ -33,7 +33,7 @@
       height: 90px; width: 90px;
   }
   .card h2{
-    font-size: 0.7em;
+    font-size: 0.9em;
     }
   .card p{
     font-size: 1em;
