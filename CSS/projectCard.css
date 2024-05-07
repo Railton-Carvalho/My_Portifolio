@@ -19,9 +19,9 @@
 }
 .projectCard p{
     z-index: 10;
-    text-align: left;
-    font-size: 17px;
-    word-wrap: break-word;
+    text-align: center;
+    letter-spacing: -1.0px;
+    font-size: 16px;
 }
 
 .projectImg{

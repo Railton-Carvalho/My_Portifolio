@@ -5,7 +5,7 @@
     align-items: center;
     margin-top: 14%;
     width: 100%;
-    background-color: var(--dark-blue);
+    background-color: var(--litle-midle);
 }
 h1[languageTittle]{
     font-size: 50px;
@@ -13,7 +13,7 @@ h1[languageTittle]{
 }
 
 .language{/* typing language */
-    width: 10.4ch;
+    width: 11.0ch;
 }
 span[languageTittle]{
     text-align: center;
@@ -46,4 +46,14 @@ span[languageTittle]{
 
 .logoLan:hover{
     transform: scale(1.11); /* Aumenta em 5% quando passar o mouse */
+}
+.esquerda-home-skills-tecnologia-nome {
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 17px;
+    text-align: center;
+}
+
+.esquerda-home-skills-tecnologia:hover .esquerda-home-skills-tecnologia-nome {
+    opacity: 1;
 }

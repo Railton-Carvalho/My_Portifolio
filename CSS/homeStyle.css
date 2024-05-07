@@ -10,23 +10,23 @@
 		background-position: 0% 50%;
 	}
 }
-.contentHolder{
+.contentHolder {
     text-align: center;
     display: flex;
-  /*   background: linear-gradient(rgb(28, 81, 108) 0%, rgb(30, 92, 122) 70%); */
     background-color: #095a80;
     justify-content: center;
-   /*  background:linear-gradient(to right,   #079bc0, var(--midle-blue));
- /* gradiente de preto a cinza médio a branco */
-/*     background-size: 400% 400%; */
-  /*   animation: gradient 14s ease infinite; */
+    background-image: url("../Imagem/backgroud.jpg");
+    background-size: cover;
+    background-position: center; /* Ajusta a imagem de fundo para cobrir completamente o contêiner */
     height: 88.6vh;
 }
+
 .basicInfo{
+    position: fixed;
     margin: 2% 0;
     display: flex;
     padding: 50px 100px;
-    margin-left: 10%;
+    left: 5%;
     width: 60%;
     flex-direction: column;
 

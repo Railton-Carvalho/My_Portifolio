@@ -19,7 +19,7 @@
     text-decoration: none;
 }
 .btn-4 span ion-icon{
-    color: black;
+    color: var(--litle-midle);
     font-size: 1.6em;
 }
 .btn-4 {
@@ -36,8 +36,9 @@
     position: relative;
     display: flex;
     padding: 5px;
-    gap: 5px;
-    color: black;
+    gap: 7px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--litle-midle);
     justify-content: center;
     align-items: center;
     width: 100%;

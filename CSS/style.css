@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * { /* stilo mae */
     --dark-gray: #191919;
     --light-green: #00FF0B;
     --dark-blue: #191c29;
     --midle-blue: rgb(16, 47, 62);
+    --new-midle: #095a80;
+    --litle-midle:   #0a3b51;
+  
     color: white;
-    font-family: 'Inter';
+    font-family: "Roboto", monospace;
     font-weight: 500;
     font-size: 20px;
     padding: 0;
@@ -22,7 +27,7 @@ footer{
     position: fixed; /* ou position: absolute; */
     bottom: 0;
     width: 100%;
-    background-color: #072837;
+    background-color: #0a3b51;
     /* background: linear-gradient(rgb(6, 22, 31) 0%, var(--midle-blue) 40%); */
     color: #fff;
     text-align: center;

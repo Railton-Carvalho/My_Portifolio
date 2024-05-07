@@ -6,10 +6,10 @@
   
   
   .card {
-    background: rgb(25, 28, 41);
+    background: var(--litle-midle);
     height: 230px;
     width: 245px;
-    padding: 12px;
+    padding: 15px;
     position: relative;
     border-radius: 7px;
     display: flex;
@@ -21,7 +21,7 @@
     justify-content: left;
   }
   .cardsHolder{
-    margin-top: 8%;
+    margin-top: 5%;
     display: flex;
     width: 100%;
     justify-content: center;
