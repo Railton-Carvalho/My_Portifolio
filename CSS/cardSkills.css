@@ -21,7 +21,7 @@
     justify-content: left;
   }
   .cardsHolder{
-    margin-top: 5%;
+    margin-top: 4%;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -30,7 +30,7 @@
     z-index: 1;
   }
   .CardLogo{
-      height: 90px; width: 90px;
+      height: 80px; width: 80px;
   }
   .card h2{
     font-size: 0.9em;
@@ -41,7 +41,8 @@
 
 .listCard{
   margin-left: 3%;
-  padding: 5px;
+  padding: 3px;
+  line-height: 1.1;
 }
 .listCard li{
   font-size: .8em;

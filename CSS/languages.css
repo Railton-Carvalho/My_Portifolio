@@ -3,7 +3,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-top: 14%;
+    margin-top: 13%;
     width: 100%;
     background-color: var(--litle-midle);
 }
@@ -13,7 +13,8 @@ h1[languageTittle]{
 }
 
 .language{/* typing language */
-    width: 11.0ch;
+    font-size: 21px;
+    width: 11.2ch;
 }
 span[languageTittle]{
     text-align: center;
@@ -22,7 +23,7 @@ span[languageTittle]{
     margin: 10px 0px;
 }
 .logoLan{
-    height: 65px;
+    height: 67px;
     cursor: pointer;
 }
 .springLogo{
@@ -38,6 +39,7 @@ span[languageTittle]{
     border-radius: 20px;
     gap: 35px;
     justify-content: center;
+    margin-bottom: 2%;
     align-items: center;
 }
 .logoLan{

@@ -2,17 +2,17 @@
     display: none;
     flex-direction: column;
     align-items: center;
-    background-color:  var(--new-midle);
-    height: 88.6vh;
+    background-color: #0d4861;;
+    height: 88.8vh;
     
 }
 .widthImage{
     display: flex;
-    height: 180px;
+    height: 220px;
     width: 100%;
     padding: 0px;
     justify-content: center;
-    background-color: #E6EEF1;
+    background-color: #fffdd0;
 }
 .macacoImg{
     width: 100%;
