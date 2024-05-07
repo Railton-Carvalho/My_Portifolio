@@ -91,3 +91,18 @@
     }
   }
   
+  .cardsHolder{
+    animation: saindo 1s ease-in-out;
+}
+
+@keyframes saindo {
+    0% {
+        top: 10%;
+        opacity: 0;
+    }
+
+    100% {
+        top: 5.5%;
+        opacity: 1;
+    }
+}
