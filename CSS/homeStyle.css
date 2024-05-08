@@ -25,7 +25,7 @@
 
 .basicInfo{
     position: fixed;
-    margin: 2% 0;
+    margin: 3% 0;
     display: flex;
     padding: 50px 100px;
     left: 5%;
@@ -41,7 +41,7 @@ p[intro]{
 h1[backend]{  
     color: var(--light-green);
     text-align: center;
-    font-size: 4em;
+    font-size: 4.2em;
     font-weight: 650;
     line-height: 40px; letter-spacing: 4px;
     margin-bottom: 6%;
