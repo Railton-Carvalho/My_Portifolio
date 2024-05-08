@@ -27,7 +27,7 @@ footer{
     position: fixed; /* ou position: absolute; */
     bottom: 0;
     width: 100%;
-    background-color: #0a3b51;
+    background-color: #0d5b80;
     /* background: linear-gradient(rgb(6, 22, 31) 0%, var(--midle-blue) 40%); */
     color: #fff;
     text-align: center;

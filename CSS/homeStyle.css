@@ -14,8 +14,9 @@
     text-align: center;
     display: flex;
     background-color: #095a80;
+    width: 100%;
     justify-content: center;
-    background-image: url("../Imagem/backgroud.jpg");
+    background-image: url("../Imagem/backgroudTree.jpg");
     background-size: cover;
     background-position: center; /* Ajusta a imagem de fundo para cobrir completamente o contêiner */
     height: 88.6vh;
@@ -33,14 +34,15 @@
 }
 p[intro]{
     padding: 0px;
-    font-weight: 100;
+    font-weight: 400;
     text-align: center;
 }
 h1[backend]{  
     color: var(--light-green);
     text-align: center;
     font-size: 4em;
-    line-height: 40px;letter-spacing: 4px;
+    font-weight: 650;
+    line-height: 40px; letter-spacing: 4px;
     margin-bottom: 6%;
     text-shadow: 
         -1px -1px 0 var(--light-green),  
@@ -60,7 +62,7 @@ h1[developer]{
     margin-top: 8%;
 }
 .raiImg{
-   height: 380px;
-   margin-top: 13%;
-   margin-left:200px;
+   height: 430px;
+   margin-left:auto;
+   margin-right: 6%;
 }

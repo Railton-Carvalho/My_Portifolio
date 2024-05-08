@@ -97,12 +97,12 @@
 
 @keyframes saindo {
     0% {
-        top: 10%;
+        top: 16%;
         opacity: 0;
     }
 
     100% {
-        top: 5.5%;
+        top: 8.5%;
         opacity: 1;
     }
 }
