@@ -20,8 +20,8 @@
 .projectCard p{
     z-index: 10;
     text-align: center;
-    letter-spacing: -1.0px;
-    font-size: 16px;
+    letter-spacing: -.8px;
+    font-size: 18px;
 }
 
 .projectImg{
@@ -76,6 +76,9 @@ img[apiGif]{
 }
 img[mapaGif]{
     height: 6.2em;
+}
+img[imc]{
+    height: 5.7em;
 }
 
 .projectCard{

@@ -15,6 +15,7 @@
     display: flex;
     background-color: #095a80;
     width: 100%;
+    align-items: center;
     justify-content: center;
     background-image: url("../Imagem/backgroudTree.jpg");
     background-size: cover;

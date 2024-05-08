@@ -7,8 +7,8 @@
   
   .card {
     background: var(--litle-midle);
-    height: 230px;
-    width: 245px;
+    height: 245px;
+    width: 265px;
     padding: 15px;
     position: relative;
     border-radius: 7px;
@@ -21,7 +21,7 @@
     justify-content: left;
   }
   .cardsHolder{
-    margin-top: 5.9%;
+    margin-top: 6.9%;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -45,7 +45,7 @@
   line-height: 1.1;
 }
 .listCard li{
-  font-size: .8em;
+  font-size: .9em;
 }
 
   .card:hover:before{
@@ -80,7 +80,7 @@
   }
   
   h2[banco]{
-    font-size: 22px;
+    font-size: 0.9em;
   }
   @keyframes spin {
     0% {
