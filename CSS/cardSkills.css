@@ -7,7 +7,7 @@
   
   .card {
     background: var(--litle-midle);
-    height: 245px;
+    height: 239px;
     width: 265px;
     padding: 15px;
     position: relative;
@@ -21,7 +21,7 @@
     justify-content: left;
   }
   .cardsHolder{
-    margin-top: 6.9%;
+    margin-top: 6.2%;
     display: flex;
     width: 100%;
     justify-content: center;
