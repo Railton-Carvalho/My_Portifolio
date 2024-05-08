@@ -21,7 +21,7 @@
     justify-content: left;
   }
   .cardsHolder{
-    margin-top: 4%;
+    margin-top: 5.9%;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -92,17 +92,17 @@
   }
   
   .cardsHolder{
-    animation: saindo 1s ease-in-out;
+    animation: saindo 0.8s ease-in-out;
 }
 
 @keyframes saindo {
     0% {
-        top: 16%;
+        top: 19%;
         opacity: 0;
     }
 
     100% {
-        top: 8.5%;
+        top: 9.5%;
         opacity: 1;
     }
 }
